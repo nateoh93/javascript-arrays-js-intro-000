@@ -4,3 +4,4 @@ function addElementToBeginningOfArray () {
   var addElementToBeginningOfArray = ["array", "element"]
   
 }
+["more element", ...addElementToBeginningOfArray]
