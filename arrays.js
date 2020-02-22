@@ -8,19 +8,15 @@ function destructivelyAddElementToBeginningOfArray(array, element) {
   array.unshift(element)
   return array
 }
-// COME BACK TO THIS
 
-function addElementToEndOfArray() {
-  var addElementToEndOfArray = [1]
-  addElementToEndOfArray.push("foo")
-  return addElementToEndOfArray
+function addElementToEndOfArray(array, element) {
+  return [...array, element]
 }
 
-function destructivelyAddElementToEndOfArray() {
-  var destructivelyAddElementToEndOfArray = [1]
-  destructivelyAddElementToEndOfArray.push("foo")
-  return destructivelyAddElementToEndOfArray
-}
+function destructivelyAddElementToEndOfArray(array, element) {
+  array.push(element)
+  return array
+  }
 ///COME BACK TO THIS
 
 function accessElementInArray () {
