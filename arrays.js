@@ -9,3 +9,8 @@ function destructivelyAddElementToBeginningOfArray() {
   destructivelyAddElementToBeginningOfArray = ['foo', ...destructivelyAddElementToBeginningOfArray]
   return destructivelyAddElementToBeginningOfArray
 }
+// COME BACK TO THIS
+function addElementToEndOfArray() {
+  var addElementToEndOfArray = ["foo", 1]
+  return addElementToEndOfArray
+}
