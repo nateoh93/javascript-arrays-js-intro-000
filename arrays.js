@@ -5,10 +5,10 @@ function addElementToBeginningOfArray () {
   addElementToBeginningOfArray.unshift("foo")
   return addElementToBeginningOfArray
 }
-function destructivelyAddElementToBeginningOfArray() {
-  var destructivelyAddElementToBeginningOfArray = [1]
-  destructivelyAddElementToBeginningOfArray.unshift("foo")
-  return destructivelyAddElementToBeginningOfArray
+//destructivelyAddElementToBeginningOfArray(["one", "two", "three"], "four")
+function destructivelyAddElementToBeginningOfArray(array, element) {
+  array.unshift(element)
+  return array
 }
 // COME BACK TO THIS
 
@@ -34,4 +34,9 @@ function destructivelyRemoveElementFromBeginningOfArray() {
   var destructivelyRemoveElementFromBeginningOfArray = [1,2,3]
   destructivelyRemoveElementFromBeginningOfArray.shift()
   return destructivelyRemoveElementFromBeginningOfArray
+}
+
+function removeElementFromBeginningOfArray() {
+  var removeElementFromBeginningOfArray = [1,2,3]
+  
 }
