@@ -7,9 +7,7 @@ function addElementToBeginningOfArray () {
 }
 function destructivelyAddElementToBeginningOfArray() {
   var destructivelyAddElementToBeginningOfArray = [1]
-  ///destructivelyAddElementToBeginningOfArray = ["foo", ...destructivelyAddElementToBeginningOfArray]
   destructivelyAddElementToBeginningOfArray.unshift("foo")
-  destructivelyAddElementToBeginningOfArray = ["foo", 1]
   return destructivelyAddElementToBeginningOfArray
 }
 // COME BACK TO THIS
@@ -31,3 +29,4 @@ function accessElementInArray () {
   var accessElementInArray = [0, 1, 2, 3]
   return accessElementInArray[3]
 }
+
