@@ -22,10 +22,9 @@ function accessElementInArray (array, index) {
   return array[index]
 }
 
-function destructivelyRemoveElementFromBeginningOfArray() {
-  var destructivelyRemoveElementFromBeginningOfArray = [1,2,3]
-  destructivelyRemoveElementFromBeginningOfArray.shift()
-  return destructivelyRemoveElementFromBeginningOfArray
+function destructivelyRemoveElementFromBeginningOfArray(array) {
+  array.shift()
+  return array
 }
 
 function removeElementFromBeginningOfArray() {
