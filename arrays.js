@@ -29,4 +29,5 @@ function destructivelyAddElementToEndOfArray() {
 
 function accessElementInArray () {
   var accessElementInArray = [0, 1, 2, 3]
+  console.log(accessElementInArray[3])
 }
