@@ -29,3 +29,9 @@ function accessElementInArray () {
   var accessElementInArray = [0, 1, 2, 3]
   return accessElementInArray[3]
 }
+
+function destructivelyRemoveElementFromBeginningOfArray() {
+  var destructivelyRemoveElementFromBeginningOfArray = [0,1,2,3]
+  destructivelyRemoveElementFromBeginningOfArray.shift()
+  return destructivelyRemoveElementFromBeginningOfArray
+}
